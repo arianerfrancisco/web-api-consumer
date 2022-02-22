@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Web.Mvc;
 using WebApi.Models;
 
@@ -18,6 +19,11 @@ namespace WebApi.Controllers
        {
            if(!string.IsNullOrEmpty(nome))
             clientes.Add(new Cliente(nome));
+       }
+
+       public void Delete(string nome)
+       {
+           clientes.RemoveAt(clientes.IndexOf(clientes.First( x => x.Equals(nome))));
        }
     }
 }
