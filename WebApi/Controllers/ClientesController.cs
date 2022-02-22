@@ -23,7 +23,7 @@ namespace WebApi.Controllers
 
        public void Delete(string nome)
        {
-           clientes.RemoveAt(clientes.IndexOf(clientes.First( x => x.Equals(nome))));
+           clientes.RemoveAt(clientes.IndexOf(clientes.First( x => x.Nome.Equals(nome))));
        }
     }
 }
