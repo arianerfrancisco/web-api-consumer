@@ -21,3 +21,6 @@ O HTTP é um protocolo cliente-servidor, ou seja, a base de qualquer troca de da
 Clientes e servidores se comunicam trocando mensagens individuais (ao contrário de um fluxo de dados). As mensagens enviadas pelo cliente, geralmente um navegador da Web, são chamadas de solicitações (requests), ou também requisições, e as mensagens enviadas pelo servidor como resposta são chamadas de respostas (responses).
 
 ![índice](https://user-images.githubusercontent.com/72419533/155140895-9fd91d4f-ffe8-43dd-876d-52804619eb8e.png)
+
+
+## Repositório criado para fins de Estudo 📒
